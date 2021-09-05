@@ -1,4 +1,4 @@
 @import "dev.section.css";
 @import "dev.footer.css";
-@import "../dev.common.css";
-@import "../dev.header.css";
+@import "/resources/stylesheets/dev.common.css";
+@import "/resources/stylesheets/dev.header.css";
