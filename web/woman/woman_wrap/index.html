@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtDress</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="/resources/stylesheets/dev.main/main.common.css" rel="stylesheet">
+    <script defer src="/resources/script/common.js"></script>
+</head>
+<body>
+    <div rel="js-container" class="body-item-container">
+        <!-- header menu -->
+        <ul class="container-wrap" id="container-wrap">
+            <li class="container-section" id="container-js">
+                <header class="body-item header">
+                    <nav class="header-items">
+                        <div class="header-item-title">
+                            <div class="menu-icon"><img class="menu-icon-img"
+                                    src="/resources/images/common_img/header_icon/menu_white.png" alt="menu-icon" width="30px">
+                            </div>
+                            <div class="menu-title">ArtDress</div>
+                            
+                            <div class="header-item-menu">
+                                <ul class="menu-items">
+                                    <li class="menu-item women">Women</li>
+                                    <li class="menu-item man">Man</li>
+                                    <li class="menu-item children">Children</li>
+                                    <li class="menu-item contacts">Contacts</li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <div class="header-item-user">
+                            <ul class="user-items">
+                                <li class="user-item">
+                                    <span class="account-icon"></span>
+                                    <div class="account-icon"><img class="account-icon-img user-img"
+                                            src="/resources/images/common_img/header_icon/user_white.png" alt="menu-icon"
+                                            width="30px"></div>
+                                    <div class="account-title">Account</div>
+                                </li>
+                                <li class="user-item">
+                                    <div class="cart-icon"><img class="cart-icon-img user-img"
+                                            src="/resources/images/common_img/header_icon/shopping_white.png" alt="menu-icon"
+                                            width="30px"></div>
+                                    <div class="cart-title">Cart</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            
+                <main>
+                    <div class="wrap-img women" id="wrap-img-sd"></div>
+                    <article class="container-section-area">
+                        <section class="main-section" id="mainSection">
+                            <div class="container-section-area-txt">
+                                <div class="main-return" id="mainReturn" onclick = "viewButton('close')">
+                                    <img class="main-return-img" src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view-return.png" alt="return">
+                                </div>
+                                <div class="container-section-area-txt-subtitle">
+                                    <p>PROMOTION</p>
+                                </div>
+                                <div class="container-section-area-txt-title" id="section-title">
+                                    <h5>
+                                        <p>Super<br>Value Deals</p>
+                                    </h5>
+                                </div>
+                                <div class="container-section-area-txt-content" id="section-content">
+                                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br>the
+                                        industry's
+                                        standard dummy text ever since the 1500s,<br>took a galley of type and scrambled it to</p>
+                                </div>
+                                <div class="container-section-area-txt-view" id="view-area">
+                                    <div class="container-section-area-txt-view-title" id="section-view">
+                                        <p>View more</p>
+                                    </div>
+                                    <img class="container-section-area-txt-view-icon"
+                                        src="/resources/images/common_img/main_icon/view_bt.png" alt="view_bt" width="32px"
+                                        onclick="viewButton('open')">
+                                </div>
+                                <div class="container-section-area-view-click" id="view-click">
+                                    <img class=container-section-area-view-click-link-img
+                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_link.png" alt=""
+                                        width="28px">
+                                    <div class="container-section-area-view-click-like-area">
+                                        <img class=container-section-area-view-click-like-img
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_like.png" alt=""
+                                            width="28px" onclick="countLike()">
+                                        <span class="count-like">17,020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <aside class="container-section-area-next" id="area-next">
+                                <div class="container-section-area-next-flex">
+                                    <div class="container-section-area-next-box">
+                                        <div class="container-section-area-next-box-area">
+                                            <div class="container-section-area-next-box-img sd">
+                                                <p>Make a Women Women</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-section-area-next-bt">
+                                        <img src="/resources/images/common_img/main_icon/wrap_nt_bt.png" id="section-next-sd"
+                                            width="7px">
+                                    </div>
+                                </div>
+                
+                                <div class="container-section-area-next-content">
+                                    <div class="container-section-area-next-content-title" id="next-title">
+                                        <p>Design of clothing</p>
+                                    </div>
+                                    <div class="container-section-area-next-content-subtitle" id="next-subtitle">
+                                        <p>Classically, the main area design<br>was understood</p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </section>
+                        <section id="viewSection">
+                            <div class="container-section-view-pd-detail" id="view-pd">
+                                <div class="container-section-view-pd-detail-plus" id="plus-sweater" onclick="viewSwJk('sweater')">
+                                    <img class="container-section-view-pd-detail-plus-img"
+                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_pd_op.png" alt="plus">
+                                </div>
+            
+                                <div class="container-section-view-pd-detail-plus" id="plus-jacket" onclick="viewSwJk('jacket')">
+                                    <img class="container-section-view-pd-detail-plus-img"
+                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_pd_op.png" alt="plus">
+                                </div>
+
+                                <div class="container-section-view-pd-detail-plus" id="plus-bag" onclick="viewBgBt('bag')">
+                                    <img class="container-section-view-pd-detail-plus-img"
+                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_pd_op.png" alt="plus">
+                                </div>
+            
+                                <div class="container-section-view-pd-detail-plus" id="plus-boots" onclick="viewBgBt('boots')">
+                                    <img class="container-section-view-pd-detail-plus-img"
+                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_pd_op.png" alt="plus">
+                                </div>
+                            </div>            
+                            <div class="container-section-view-pd" id="pd-wrap">
+                                <div class="container-section-view-pd-area" id="pd-sweater">
+                                    <div class="container-section-view-pd-area-close" onclick="closeImg('none')">
+                                        <img class="container-section-view-pd-area-close-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_cl_bt.png"
+                                            alt="minus">
+                                    </div>
+                                    <div class="container-section-view-pd-area-box">
+                                        <img class="container-section-view-pd-area-box-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater/view_sweater.png"
+                                            alt="sweater" width="200px">
+                                    </div>
+                                    <div class="container-section-view-pd-area-txt">
+                                        <div class="container-section-view-pd-area-txt-title">
+                                            Roof-Top Sweater
+                                        </div>
+                                        <div class="container-section-view-pd-area-txt-price">
+                                            $ 2,470
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-section-view-pd-area" id="pd-jacket">
+                                    <div class="container-section-view-pd-area-close" onclick="closeImg('none')">
+                                        <img class="container-section-view-pd-area-close-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_cl_bt.png"
+                                            alt="minus">
+                                    </div>
+                                    <div class="container-section-view-pd-area-box">
+                                        <img class="container-section-view-pd-area-box-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_jecket/jecket_black.png"
+                                            alt="sweater" width="200px">
+                                    </div>
+                                    <div class="container-section-view-pd-area-txt">
+                                        <div class="container-section-view-pd-area-txt-title">
+                                            Roof-Top Jacket
+                                        </div>
+                                        <div class="container-section-view-pd-area-txt-price">
+                                            $ 1,470
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-section-view-pd-area" id="pd-bag">
+                                    <div class="container-section-view-pd-area-close" onclick="closeImg('none')">
+                                        <img class="container-section-view-pd-area-close-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_cl_bt.png"
+                                            alt="minus">
+                                    </div>
+                                    <div class="container-section-view-pd-area-box">
+                                        <img class="container-section-view-pd-area-box-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_bag/bag_black.png"
+                                            alt="bag" width="200px">
+                                    </div>
+                                    <div class="container-section-view-pd-area-txt">
+                                        <div class="container-section-view-pd-area-txt-title">
+                                            Roof-Top Bag
+                                        </div>
+                                        <div class="container-section-view-pd-area-txt-price">
+                                            $ 1,470
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-section-view-pd-area" id="pd-boots">
+                                    <div class="container-section-view-pd-area-close" onclick="closeImg('none')">
+                                        <img class="container-section-view-pd-area-close-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_cl_bt.png"
+                                            alt="minus">
+                                    </div>
+                                    <div class="container-section-view-pd-area-box">
+                                        <img class="container-section-view-pd-area-box-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_boots/boots_black.png"
+                                            alt="sweater" width="200px">
+                                    </div>
+                                    <div class="container-section-view-pd-area-txt">
+                                        <div class="container-section-view-pd-area-txt-title">
+                                            Roof-Top Boots
+                                        </div>
+                                        <div class="container-section-view-pd-area-txt-price">
+                                            $ 1,470
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <aside class="container-section-view-pd-shopping sweater-info">
+                                <div class="pd-shopping-rating-area">
+                                    <div class="other-info">
+                                        <div class="rating-star">
+                                            <span class="star">
+                                                <em class="rating" style="width:100%">5.0</em>
+                                            </span>
+                                            <span class="rating-total-count">()</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-area">
+                                        <div class="review">Reviews</div>
+                                        <div class="line-height"></div>
+                                        <div class="add-reviews">Add Reviews</div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-info-area" id="pd-info">
+                                    <div class="info-area-box">
+                                        <div class="pd-intro">
+                                            <div class="intro-title">Free shopping</div>
+                                            <div class="intro-subtitle">to Korea Via Madia Design Standard shopping<br>Estimatet
+                                                Delivery on Apr
+                                                18</div>
+                                        </div>
+            
+                                        <div class="pd-color">
+                                            <div class="color-title">Color</div>
+                                            <ul class="color-circle sweater">
+                                                <li class="color-circle-item" onclick="swColorChange('b')"></li>
+                                                <li class="color-circle-item" onclick="swColorChange('k')"></li>
+                                                <li class="color-circle-item" onclick="swColorChange('o')"></li>
+                                                <li class="color-circle-item" onclick="swColorChange('n')"></li>
+                                                <li class="color-circle-item" onclick="swColorChange('g')"></li>
+                                                <li class="color-circle-item" onclick="swColorChange('s')"></li>
+                                            </ul>
+                                        </div>
+            
+                                        <div class="pd-size">
+                                            <div class="size-title">Size</div>
+                                            <ul class="size-area sweater" id="sizeSw">
+                                                <li class="size-item" onclick="sizeElement('s')">S</li>
+                                                <li class="size-item" onclick="sizeElement('m')">M</li>
+                                                <li class="size-item" onclick="sizeElement('l')">L</li>
+                                                <li class="size-item" onclick="sizeElement('x')">X</li>
+                                                <li class="size-item" onclick="sizeElement('xl')">XL</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pd-quan">
+                                            <div class="quan-title">Quantity</div>
+                                            <div class="quan-counting">
+                                                <div class="quan-minus quan-img" id="quanMinus" onclick="quanCount('minus')">
+                                                    <img class="minus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ms.png"
+                                                        alt="minus" onclick="">
+                                                </div>
+                                                <div class="quan-count" id="swCount">1</div>
+                                                <div class="quan-plus quan-img" id="quanPlus" onclick="quanCount('plus')">
+                                                    <img class="plus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ps.png"
+                                                        alt="plus" onclick="">
+                                                </div>
+                                                <div class="quan-info">
+                                                    Additional 1% off( 2 Pieces more)<br>4877 Pieces Available
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-cart-area">
+                                    <div class="cart-area-box">
+                                        <img class="cart-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_ct.png" alt="cart">
+                                        <div class="">Add To Cart</div>
+                                    </div>
+                                    <div class="cart-area-price">$2,470</div>
+                                </div>
+                            </aside>
+
+                            <aside class="container-section-view-pd-shopping jacket-info">
+                                <div class="pd-shopping-rating-area">
+                                    <div class="other-info">
+                                        <div class="rating-star">
+                                            <span class="star">
+                                                <em class="rating" style="width:100%">5.0</em>
+                                            </span>
+                                            <span class="rating-total-count">()</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-area">
+                                        <div class="review">Reviews</div>
+                                        <div class="line-height"></div>
+                                        <div class="add-reviews">Add Reviews</div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-info-area" id="pd-info">
+                                    <div class="info-area-box">
+                                        <div class="pd-intro">
+                                            <div class="intro-title">Free shopping</div>
+                                            <div class="intro-subtitle">to Korea Via Madia Design Standard shopping<br>Estimatet
+                                                Delivery on Apr
+                                                18</div>
+                                        </div>
+            
+                                        <div class="pd-color">
+                                            <div class="color-title">Color</div>
+                                            <ul class="color-circle jacket">
+                                                <li class="color-circle-item" onclick="swColorChange('d')"></li>
+                                            </ul>
+                                        </div>
+            
+                                        <div class="pd-size">
+                                            <div class="size-title">Size</div>
+                                            <ul class="size-area jacket" id="sizeJk">
+                                                <li class="size-item" onclick="sizeElement('s')">S</li>
+                                                <li class="size-item" onclick="sizeElement('m')">M</li>
+                                                <li class="size-item" onclick="sizeElement('l')">L</li>
+                                                <li class="size-item" onclick="sizeElement('x')">X</li>
+                                                <li class="size-item" onclick="sizeElement('xl')">XL</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pd-quan">
+                                            <div class="quan-title">Quantity</div>
+                                            <div class="quan-counting">
+                                                <div class="quan-minus quan-img" id="jkMinus" onclick="quanCount('minus')">
+                                                    <img class="minus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ms.png"
+                                                        alt="minus">
+                                                </div>
+                                                <div class="quan-count" id="jkCount">1</div>
+                                                <div class="quan-plus quan-img" id="jkPlus" onclick="quanCount('plus')">
+                                                    <img class="plus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ps.png"
+                                                        alt="plus">
+                                                </div>
+                                                <div class="quan-info">
+                                                    Additional 1% off( 2 Pieces more)<br>4877 Pieces Available
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-cart-area">
+                                    <div class="cart-area-box">
+                                        <img class="cart-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_ct.png" alt="cart">
+                                        <div class="">Add To Cart</div>
+                                    </div>
+                                    <div class="cart-area-price">$2,470</div>
+                                </div>
+                            </aside>
+
+                            <aside class="container-section-view-pd-shopping bag-info">
+                                <div class="pd-shopping-rating-area">
+                                    <div class="other-info">
+                                        <div class="rating-star">
+                                            <span class="star">
+                                                <em class="rating" style="width:100%">5.0</em>
+                                            </span>
+                                            <span class="rating-total-count">()</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-area">
+                                        <div class="review">Reviews</div>
+                                        <div class="line-height"></div>
+                                        <div class="add-reviews">Add Reviews</div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-info-area" id="pd-info">
+                                    <div class="info-area-box">
+                                        <div class="pd-intro">
+                                            <div class="intro-title">Free shopping</div>
+                                            <div class="intro-subtitle">to Korea Via Madia Design Standard shopping<br>Estimatet
+                                                Delivery on Apr
+                                                18</div>
+                                        </div>
+            
+                                        <div class="pd-color">
+                                            <div class="color-title">Color</div>
+                                            <ul class="color-circle bag">
+                                                <li class="color-circle-item" onclick="swColorChange('d')"></li>
+                                            </ul>
+                                        </div>
+            
+                                        <div class="pd-size">
+                                            <div class="size-title">Size</div>
+                                            <ul class="size-area bag" id="sizeBg">
+                                                <li class="size-item" onclick="sizeElement('m')">M</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pd-quan">
+                                            <div class="quan-title">Quantity</div>
+                                            <div class="quan-counting">
+                                                <div class="quan-minus quan-img" id="bagMinus" onclick="quanCount('minus')">
+                                                    <img class="minus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ms.png"
+                                                        alt="minus">
+                                                </div>
+                                                <div class="quan-count" id="bgCount">1</div>
+                                                <div class="quan-plus quan-img" id="bagPlus" onclick="quanCount('plus')">
+                                                    <img class="plus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ps.png"
+                                                        alt="plus">
+                                                </div>
+                                                <div class="quan-info">
+                                                    Additional 1% off( 2 Pieces more)<br>4877 Pieces Available
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-cart-area">
+                                    <div class="cart-area-box">
+                                        <img class="cart-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_ct.png" alt="cart">
+                                        <div class="">Add To Cart</div>
+                                    </div>
+                                    <div class="cart-area-price">$2,470</div>
+                                </div>
+                            </aside>
+
+                            <aside class="container-section-view-pd-shopping boots-info">
+                                <div class="pd-shopping-rating-area">
+                                    <div class="other-info">
+                                        <div class="rating-star">
+                                            <span class="star">
+                                                <em class="rating" style="width:100%">5.0</em>
+                                            </span>
+                                            <span class="rating-total-count">()</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-area">
+                                        <div class="review">Reviews</div>
+                                        <div class="line-height"></div>
+                                        <div class="add-reviews">Add Reviews</div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-info-area" id="pd-info">
+                                    <div class="info-area-box">
+                                        <div class="pd-intro">
+                                            <div class="intro-title">Free shopping</div>
+                                            <div class="intro-subtitle">to Korea Via Madia Design Standard shopping<br>Estimatet
+                                                Delivery on Apr
+                                                18</div>
+                                        </div>
+            
+                                        <div class="pd-color">
+                                            <div class="color-title">Color</div>
+                                            <ul class="color-circle boots">
+                                                <li class="color-circle-item" onclick="swColorChange('d')"></li>
+                                            </ul>
+                                        </div>
+            
+                                        <div class="pd-size">
+                                            <div class="size-title">Size</div>
+                                            <ul class="size-area boots" id="sizeBt">
+                                                <li class="size-item" onclick="sizeElement('s')">230</li>
+                                                <li class="size-item" onclick="sizeElement('m')">235</li>
+                                                <li class="size-item" onclick="sizeElement('l')">240</li>
+                                                <li class="size-item" onclick="sizeElement('x')">245</li>
+                                                <li class="size-item" onclick="sizeElement('xl')">250</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pd-quan">
+                                            <div class="quan-title">Quantity</div>
+                                            <div class="quan-counting">
+                                                <div class="quan-minus quan-img" id="bootsMinus" onclick="quanCount('minus')">
+                                                    <img class="minus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ms.png"
+                                                        alt="minus">
+                                                </div>
+                                                <div class="quan-count" id="btCount">1</div>
+                                                <div class="quan-plus quan-img" id="bootsPlus" onclick="quanCount('plus')">
+                                                    <img class="plus-img"
+                                                        src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_nb_ps.png"
+                                                        alt="plus">
+                                                </div>
+                                                <div class="quan-info">
+                                                    Additional 1% off( 2 Pieces more)<br>4877 Pieces Available
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pd-shopping-cart-area">
+                                    <div class="cart-area-box">
+                                        <img class="cart-img"
+                                            src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_ct.png" alt="cart">
+                                        <div class="">Add To Cart</div>
+                                    </div>
+                                    <div class="cart-area-price">$2,470</div>
+                                </div>
+                            </aside>
+                        </section>
+                    </article>
+                </main>
+            
+                <footer>
+                    <div class="container-section-sns-area" id="area-sns">
+                        <ul class="container-section-sns-box">
+                            <li class="container-section-sns youtube">
+                                <p>Youtube</p>
+                            </li>
+                            <li class="container-section-sns twitter">
+                                <p>Twitter</p>
+                            </li>
+                            <li class="container-section-sns facebook">
+                                <p>Facebook</p>
+                            </li>
+                            <li class="container-section-sns tiktok">
+                                <p>Tiktok</p>
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <div class="container-section-view-service" id="view-service">
+                        <div class="container-section-view-service-buyer">
+                            <div class="container-section-view-service-buyer-box">
+                                <img class="container-section-view-service-buyer-img"
+                                    src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_pt.png" alt="buyerService">
+                            </div>
+                            <span class="container-section-view-service-buyer-area service-area">
+                                <div class="container-section-view-service-buyer-area-title service-title">75-Day Buyer Protection
+                                </div>
+                                <div class="container-section-view-service-buyer-area-subtitle service-subtitle">MONEY Back
+                                    Guarantee</div>
+                            </span>
+                        </div>
+                        <div class="container-section-view-service-return">
+                            <div class="container-section-view-service-return-box">
+                                <img class="container-section-view-service-return-img"
+                                    src="/resources/images/woman_wrap_img/woman_wrap/view/view-bt/view_rt.png" alt="freeReturn">
+                            </div>
+                            <span class="container-section-view-service-return-area service-area">
+                                <div class="container-section-view-service-return-area-title service-title">Free Return</div>
+                                <div class="container-section-view-service-return-area-subtitle service-subtitle">Return For Any
+                                    Reason Within 15Days</div>
+                            </span>
+                        </div>
+                    </div>
+                              
+                    <form class="drag-box" id="drag-box-wm">
+                        <input class="drag-line" type="range" id="cowbell" min="0" max="100" value="0" step="1" oninput = "backgroundImgControl()">
+                    </form>
+                </footer>
+            </li>
+    
+            <li class="container-section" id="container-js">
+                <header class="body-item header">
+                    <nav class="header-items">
+                        <div class="header-item-title">
+                            <div class="menu-icon"><img class="menu-icon-img"
+                                    src="/resources/images/common_img/header_icon/menu_white.png" alt="menu-icon" width="30px">
+                            </div>
+                            <div class="menu-title">SevenMall</div>
+                            
+                            <div class="header-item-menu">
+                                <ul class="menu-items">
+                                    <li class="menu-item women">Women</li>
+                                    <li class="menu-item man">Man</li>
+                                    <li class="menu-item children">Children</li>
+                                    <li class="menu-item contacts">Contacts</li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <div class="header-item-user">
+                            <ul class="user-items">
+                                <li class="user-item">
+                                    <span class="account-icon"></span>
+                                    <div class="account-icon"><img class="account-icon-img user-img"
+                                            src="/resources/images/common_img/header_icon/user_white.png" alt="menu-icon"
+                                            width="30px"></div>
+                                    <div class="account-title">Account</div>
+                                </li>
+                                <li class="user-item">
+                                    <div class="cart-icon"><img class="cart-icon-img user-img"
+                                            src="/resources/images/common_img/header_icon/shopping_white.png" alt="menu-icon"
+                                            width="30px"></div>
+                                    <div class="cart-title">Cart</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+                <main>
+                    <div class="wrap-img women" id="wrap-img-mw"></div>
+                    <article class="container-section-area">
+                        <section class="main-section">
+                            <div class="container-section-area-txt">
+                                <div class="container-section-area-txt-subtitle">
+                                    <p>PROMOTION</p>
+                                </div>
+                                <div class="container-section-area-txt-title" id="section-title">
+                                    <h5>
+                                        <p>Make a<br>Women Women</p>
+                                    </h5>
+                                </div>
+                                <div class="container-section-area-txt-content" id="section-content">
+                                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br>the
+                                        industry's
+                                        standard dummy text ever since the 1500s,<br>took a galley of type and scrambled it to</p>
+                                </div>
+                                <div class="container-section-area-txt-view" id="view-area">
+                                    <div class="container-section-area-txt-view-title" id="section-view">
+                                        <p>View more</p>
+                                    </div>
+                                    <img class="container-section-area-txt-view-icon"
+                                        src="/resources/images/common_img/main_icon/view_bt.png" alt="view_bt" width="32px"
+                                        onclick="viewDelete()">
+                                </div>
+                            </div>
+                            <aside class="container-section-area-next" id="area-next">
+                                <div class="container-section-area-next-flex">
+                                    <div class="container-section-area-next-box">
+                                        <div class="container-section-area-next-box-area">
+                                            <div class="container-section-area-next-box-img mw">
+                                                <p>Oversize Cardigan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-section-area-next-bt">
+                                        <img src="/resources/images/common_img/main_icon/wrap_nt_bt.png" id="section-next-mw"
+                                            width="7px">
+                                    </div>
+                                </div>
+                
+                                <div class="container-section-area-next-content">
+                                    <div class="container-section-area-next-content-title" id="next-title">
+                                        <p>Design of clothing</p>
+                                    </div>
+                                    <div class="container-section-area-next-content-subtitle" id="next-subtitle">
+                                        <p>Classically, the main area design<br>was understood</p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </section>
+		            </article>
+                </main>
+                <footer>
+                    <div class="container-section-sns-area">
+                        <ul class="container-section-sns-box">
+                            <li class="container-section-sns youtube"><p>Youtube</p></li>
+                            <li class="container-section-sns twitter"><p>Twitter</p></li>
+                            <li class="container-section-sns facebook"><p>Facebook</p></li>
+                            <li class="container-section-sns tiktok"><p>Tiktok</p></li>
+                        </ul>
+                    </div>
+                </footer>
+            </li>
+    
+            <li class="container-section" id="container-js">
+                <header class="body-item header">
+                    <nav class="header-items">
+                        <div class="header-item-title">
+                            <div class="menu-icon"><img class="menu-icon-img"
+                                    src="/resources/images/common_img/header_icon/menu_white.png" alt="menu-icon" width="30px">
+                            </div>
+                            <div class="menu-title">SevenMall</div>
+                            
+                            <div class="header-item-menu">
+                                <ul class="menu-items">
+                                    <li class="menu-item women">Women</li>
+                                    <li class="menu-item man">Man</li>
+                                    <li class="menu-item children">Children</li>
+                                    <li class="menu-item contacts">Contacts</li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <div class="header-item-user">
+                            <ul class="user-items">
+                                <li class="user-item">
+                                    <span class="account-icon"></span>
+                                    <div class="account-icon"><img class="account-icon-img user-img"
+                                            src="/resources/images/common_img/header_icon/user_white.png" alt="menu-icon"
+                                            width="30px"></div>
+                                    <div class="account-title">Account</div>
+                                </li>
+                                <li class="user-item">
+                                    <div class="cart-icon"><img class="cart-icon-img user-img"
+                                            src="/resources/images/common_img/header_icon/shopping_white.png" alt="menu-icon"
+                                            width="30px"></div>
+                                    <div class="cart-title">Cart</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+                
+                <main>
+                    <div class="wrap-img women" id="wrap-img-oc"></div>
+                    <article class="container-section-area">
+                        <section class="main-section">
+                            <div class="container-section-area-txt">
+                                <div class="container-section-area-txt-subtitle">
+                                    <p>PROMOTION</p>
+                                </div>
+                                <div class="container-section-area-txt-title" id="section-title">
+                                    <h5>
+                                        <p>Oversize<br>Cardigan</p>
+                                    </h5>
+                                </div>
+                                <div class="container-section-area-txt-content" id="section-content">
+                                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br>the
+                                        industry's
+                                        standard dummy text ever since the 1500s,<br>took a galley of type and scrambled it to</p>
+                                </div>
+                                <div class="container-section-area-txt-view" id="view-area">
+                                    <div class="container-section-area-txt-view-title" id="section-view">
+                                        <p>View more</p>
+                                    </div>
+                                    <img class="container-section-area-txt-view-icon"
+                                        src="/resources/images/common_img/main_icon/view_bt.png" alt="view_bt" width="32px"
+                                        onclick="viewDelete()">
+                                </div>
+                            </div>
+                            <aside class="container-section-area-next" id="area-next">
+                                <div class="container-section-area-next-flex">
+                                    <div class="container-section-area-next-box">
+                                        <div class="container-section-area-next-box-area">
+                                            <div class="container-section-area-next-box-img oc">
+                                                <p>Make a Women Women</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-section-area-next-bt">
+                                        <img src="/resources/images/common_img/main_icon/wrap_nt_bt.png" id="section-next-oc"
+                                            width="7px">
+                                    </div>
+                                </div>
+                
+                                <div class="container-section-area-next-content">
+                                    <div class="container-section-area-next-content-title" id="next-title">
+                                        <p>Design of clothing</p>
+                                    </div>
+                                    <div class="container-section-area-next-content-subtitle" id="next-subtitle">
+                                        <p>Classically, the main area design<br>was understood</p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </section>
+		            </article>
+                </main>
+                <footer>
+                    <div class="container-section-sns-area">
+                        <ul class="container-section-sns-box">
+                            <li class="container-section-sns youtube"><p>Youtube</p></li>
+                            <li class="container-section-sns twitter"><p>Twitter</p></li>
+                            <li class="container-section-sns facebook"><p>Facebook</p></li>
+                            <li class="container-section-sns tiktok"><p>Tiktok</p></li>
+                        </ul>
+                    </div>
+                </footer>
+            </li>
+        </ul>
+    </div>
+</body> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</html> 

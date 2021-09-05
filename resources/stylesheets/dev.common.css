@@ -1,0 +1,59 @@
+body, div, span, a, section, header, article, nav, aside, footer, ul, ol, li, h1, h2, h3, h4, h5, form, input, p, b, em, button{margin: 0; padding: 0;}
+html {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px; /* 후에 1rem의 값이 됨 */
+    font-weight: 500;
+    color: #ffffff;
+}
+
+html {
+    height: 100vh;
+}
+body {
+    font-size: 12px;
+    position: relative;
+    line-height: 1.2;
+    overflow: hidden;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-size: 0.875rem;
+}
+
+button {border: 0; outline: 0; cursor: pointer;}
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+section,header,footer {
+    position: relative;
+}
+
+header {
+    padding: 64px 90px 5rem 90px;
+    z-index: 1;
+}
+
+section {
+    z-index: 2;
+}
+
+
+input, select {
+    outline: none;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+

@@ -1,0 +1,17 @@
+.header-items {display: flex;  align-items: center; justify-content: space-between;}
+
+
+.header-item-title, .menu-items, .user-items, .user-item {display: flex; align-items: center;}
+
+.header-items {font-size: 1.25rem; font-weight: 700;}
+
+.menu-title {padding: 0 8rem 0 0.625rem;}
+
+.header-item-menu {position: relative;}
+
+.menu-item:not(:last-child) {padding-right: 2.5rem;}
+
+.user-item:not(:last-child) {padding-right: 2.5rem;}
+
+.user-img {padding-right: 0.625rem;}
+

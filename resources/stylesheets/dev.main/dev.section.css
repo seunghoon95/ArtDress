@@ -1,0 +1,512 @@
+/* woman-wrap*/
+body > div.body-item-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+body > div.body-item-container> ul.container-wrap {
+    width: 100%;
+    position: absolute;
+}
+
+body > div.body-item-container> ul.container-wrap > li.container-section {
+    position: absolute;
+    width: 1920px;
+}
+
+/* background-img */
+.wrap-img.women {
+    width: 120rem;
+    height: 100vh;
+    position: absolute;
+    margin-top: -11.1rem;
+    z-index: 0;   
+}
+
+.wrap-img.women#wrap-img-sd.animated {
+    transition-duration: 0.8s;
+}
+
+.wrap-img.women#wrap-img-sd {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap-img.women#wrap-img-mw {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap-img.women#wrap-img-oc {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background3.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: -6.25rem;
+}
+
+/* 우측 다음 화면 소개 */
+.container-section-area-next-flex {
+    display: flex;
+}
+
+.container-section-area-next-box-area {
+    font-size: 1.125rem;
+}
+
+.container-section-area-next-box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.75rem;
+    height: 11.25rem;
+}
+
+/* animated클래스 들어왔을시 슬라이드 효과 삽입 */
+
+ul.container-wrap.animated {
+    -webkit-transition: left .5s ease-in;
+    transition: left .8s ease-in;
+}
+
+/*  좌측 해당 페이지 소개 문구*/
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8.9375rem 5.625rem 0 5.625rem;
+}
+
+.main-return {
+    padding : 0 0 1rem 0 ;
+    cursor: pointer;
+    display: none;
+}
+
+.container-section-area-txt-subtitle {
+    font-weight: 500;
+}
+
+.container-section-area-txt-title {
+    font-size: 5.25rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+.container-section-area-txt-content {
+    font-size: 0.875rem;
+    margin-top: 2.25rem;
+    line-height: 1.2rem;
+}
+
+.container-section-area-txt-view {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+}
+
+
+.container-section-area-txt-view-title {
+    padding-right: 1.125rem;
+}
+
+.container-section-area-txt-view-icon {
+    cursor: pointer;
+}
+
+/* 다음 화면 전환하는 이미지 */
+.container-section-area-next-box-img.sd {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background2.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.container-section-area-next-box-img.mw {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container-section-area-next-box-img.oc {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container-section-area-next-bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 11.25rem;
+    background: #191919;
+    cursor: pointer;
+}
+
+.container-section-area-next-content-title {
+    margin-top: 1.875rem;
+}
+
+.container-section-area-next-content-subtitle {
+    margin-top: 0.375rem;
+
+}
+
+/* VIEW MORE 버튼 클릭시  생기는 화면 */
+
+.container-section-area-view-click {
+    display: flex;
+    margin-top: 1.25rem;
+    display: none;
+    width: 10.625rem;
+    justify-content: space-between;
+}
+
+.container-section-area-view-click-like-img {
+    padding: 0 0.6rem 0 0;
+}
+
+.container-section-area-view-click-like-area {
+    display: flex;
+    align-items: center;
+}
+
+/* plus button in product */
+
+.container-section-view-pd-detail {
+    display: none;
+}
+
+.container-section-view-pd-detail > .container-section-view-pd-detail-plus {
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.container-section-view-pd-detail > .container-section-view-pd-detail-plus:nth-child(1) {
+    top:-16.5rem;
+    left: 70rem;
+    position: absolute;
+
+}
+
+.container-section-view-pd-detail > .container-section-view-pd-detail-plus:nth-child(2) {
+    top:-14rem;
+    left: 80rem;
+    position: absolute;
+}
+
+.container-section-view-pd-detail > .container-section-view-pd-detail-plus:nth-child(3) {
+    top: -36rem;
+    left: 80rem;
+    position: absolute;
+
+}
+
+.container-section-view-pd-detail > .container-section-view-pd-detail-plus:nth-child(4) {
+    top:-10rem;
+    left: 72rem;
+    position: absolute;
+    z-index: 4;
+
+}
+
+/* plus button in product introduce */
+.container-section-view-pd-area {
+    background: #ffffff;
+    width: 12.5rem;
+    height: 18.125rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    display: none;
+    transition-duration: 0.5s;
+}
+
+.container-section-view-pd-area:nth-child(1) {
+    top: -21rem;
+    left: 50rem;
+}
+
+.container-section-view-pd-area:nth-child(2) {
+    top: -8rem;
+    left: 70.5rem;
+}
+
+.container-section-view-pd-area:nth-child(3) {
+    top: -34rem;
+    left: 63.5rem;
+}
+
+.container-section-view-pd-area:nth-child(4) {
+    top: -15rem;
+    left: 50.5rem;
+}
+
+.container-section-view-pd-area-close-img {
+    position: absolute;
+    left: 11rem;
+    top: -0.7rem;
+    cursor: pointer;
+}
+
+.container-section-view-pd-area-box-img {
+    border-radius: 0.5rem;
+}
+.container-section-view-pd-area-txt {
+    top: 1.2rem;
+    left: 0.9rem; 
+    color: #191919;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+    position: relative;
+}
+
+.container-section-view-pd-area-txt-title {
+    font-size: 1.2rem;
+    padding: 0 0 0.4rem 0;
+}
+
+
+/* +버튼 클릭시 제품 상세 결제 */
+.container-section-view-pd-shopping {
+    width: 25rem;
+    height: 37.125rem;
+    display: none;
+    position: absolute;
+    top: -25rem;
+    right: 5.625rem;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #191919;
+    transition-duration: 0.8s;
+}
+
+.container-section-view-pd-shopping.sweater-info {
+    z-index: 3;
+}
+
+
+
+/* 제품 정보 영역 */
+
+/* 공통 속성 */
+.pd-shopping-rating-area, .pd-shopping-info-area {
+    width: 25rem;
+    border: 1.5px solid #ffffff;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0.3rem;    
+}
+/* 별점 및 리뷰 속성 */
+.pd-shopping-rating-area {
+    height: 4.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 2rem;
+    position: relative;
+}
+
+.other-info {
+    position: relative;
+    left: 4rem;
+}
+
+.review-area {
+    width: 9.375rem;
+    position: relative;
+    right: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.line-height {
+    width: 0.0625rem;
+    height: 0.75rem;
+    background: #707070;
+}
+
+.star, .rating {
+    background: url("/resources/images/woman_wrap_img/woman_wrap/view/view-bt/pd_rating.png")     ;
+}
+
+.rating-star {
+    line-height: 1.25rem;
+}
+
+.star {
+    float: left;
+    width: 5.0625rem;
+    height: 1.0625rem;
+    margin-right: 0.1875rem;
+}
+
+.rating {
+    height: 1.0625rem;
+    text-indent: -9em;
+    overflow: hidden;
+    float: left;
+    background-position: 0 -5rem;
+
+}
+
+.rating-total-count {
+    font-size: 0.875rem;
+}
+
+/* 제품 상세 속성 */
+.pd-shopping-info-area {
+    height: 25rem;
+    position: relative;
+    padding: 2rem 0 0 0;
+}
+
+.pd-shopping-info-area > .info-area-box {
+    padding: 2.5rem 0 2.5rem 2.19rem;
+}
+
+.pd-shopping-info-area > .info-area-box > .pd-intro > .intro-title, .color-title, .size-title, .quan-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0 0 0.675rem 0;
+}
+
+.pd-shopping-info-area > .info-area-box > .pd-intro > .intro-subtitle {
+    color: #707070;
+    padding: 0 0 1.875rem 0;
+}
+
+.pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle {
+    width: 16.3125rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 0 1.875rem 0;
+}
+
+.pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle > li {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+/* 의상 색상 */
+ul.color-circle > li {
+    cursor: pointer;
+}
+.sweater-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.sweater > li:nth-child(1) {
+    background-color: #A06A33;
+}
+
+.sweater-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.sweater > li:nth-child(2) {
+    background-color: #443D00;
+}
+
+.sweater-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.sweater > li:nth-child(3) {
+    background-color: #A54800;
+}
+
+.sweater-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.sweater > li:nth-child(4) {
+    background-color: #0A2C3F;
+}
+
+.sweater-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.sweater > li:nth-child(5) {
+    background-color: #4E4E4E;
+}
+
+.sweater-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.sweater > li:nth-child(6) {
+    background-color: #265694;
+}
+
+.jacket-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.jacket > li:nth-child(1) {
+    background-color: #000000;
+}
+
+.bag-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.bag > li:nth-child(1) {
+    background-color: #000000;
+}
+
+.boots-info > .pd-shopping-info-area > .info-area-box > .pd-color > ul.color-circle.boots > li:nth-child(1) {
+    background-color: #000000;
+}
+
+
+
+.pd-shopping-info-area > .info-area-box > .pd-size > ul.size-area {
+    width: 14.875rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 1.875rem 0;
+
+}
+
+
+/* 제품 사이즈 */
+
+.pd-shopping-info-area > .info-area-box > .pd-size > ul.size-area > li {
+    cursor: pointer;
+    width: 3.125rem;
+    height: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    position: relative;
+}
+
+
+
+/* 제품 수량 카운트 */
+.quan-counting {
+    width: 19.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.quan-counting > .quan-info {
+    color: #3E3434;
+    font-size: 0.675rem;
+}
+
+.quan-img {
+    cursor: pointer;
+}
+
+/* 제품 주문 */
+
+.pd-shopping-cart-area {
+    width: 18.675rem;
+    padding: 2.2rem 0 0 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.cart-area-box {
+    width: 11.75rem;
+    height: 3.5rem;
+    border-radius: 1.8rem;
+    background: #3B31D1;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; 
+    font-size: 0.875rem;
+}
+
+.cart-img {
+    padding: 0 5px 0 0;
+}
+
+.cart-area-price {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
