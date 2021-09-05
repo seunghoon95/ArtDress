@@ -29,17 +29,17 @@ body > div.body-item-container> ul.container-wrap > li.container-section {
 }
 
 .wrap-img.women#wrap-img-sd {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg") no-repeat;
+    background: url("../../images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg") no-repeat;
     background-size: cover;
 }
 
 .wrap-img.women#wrap-img-mw {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background2.jpg") no-repeat;
+    background: url("../../images/woman_wrap_img/woman_wrap/main/main_background/main_background2.jpg") no-repeat;
     background-size: cover;
 }
 
 .wrap-img.women#wrap-img-oc {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background3.jpg") no-repeat;
+    background: url("../../images/woman_wrap_img/woman_wrap/main/main_background/main_background3.jpg") no-repeat;
     background-size: cover;
     background-position-y: -6.25rem;
 }
