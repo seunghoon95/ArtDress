@@ -117,18 +117,18 @@ ul.container-wrap.animated {
 
 /* 다음 화면 전환하는 이미지 */
 .container-section-area-next-box-img.sd {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background2.jpg") no-repeat;
+    background: url("../../images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg2") no-repeat;
     background-size: cover;
 
 }
 
 .container-section-area-next-box-img.mw {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background3.jpg") no-repeat;
+    background: url("../../images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg3") no-repeat;
     background-size: cover;
 }
 
 .container-section-area-next-box-img.oc {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg") no-repeat;
+    background: url("../../images/woman_wrap_img/woman_wrap/main/main_background/main_background.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -324,7 +324,7 @@ ul.container-wrap.animated {
 }
 
 .star, .rating {
-    background: url("/resources/images/woman_wrap_img/woman_wrap/view/view-bt/pd_rating.png")     ;
+    background: url("../../images/common_img/view_bt/view_rating.png");
 }
 
 .rating-star {
