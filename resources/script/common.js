@@ -153,7 +153,7 @@ function swColorChange(el) {
     }
 
     if(el =='k') {
-        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/kahki.jpg") no-repeat'
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/khaki.jpg") no-repeat'
         swColorBackground ()
     }
 
