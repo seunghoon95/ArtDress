@@ -147,33 +147,33 @@ function swColorBackground () {
 
 function swColorChange(el) {
     if(el == 'b') {
-        womenImg.style.background = 'url("/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/blown.jpg") no-repeat';
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/blown.jpg") no-repeat';
         swColorBackground ()
 
     }
 
     if(el =='k') {
-        womenImg.style.background = 'url("/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/khaki.jpg") no-repeat'
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/kahki.jpg") no-repeat'
         swColorBackground ()
     }
 
     if(el == 'o') {
-        womenImg.style.background = 'url("/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/orange.jpg") no-repeat'
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/orange.jpg") no-repeat'
         swColorBackground ()
     }
 
     if(el == 'n') {
-        womenImg.style.background = 'url("/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/navy.jpg") no-repeat'
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/navy.jpg") no-repeat'
         swColorBackground ()
     }
 
     if(el == 'g') {
-        womenImg.style.background = 'url("/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/glay.jpg") no-repeat'
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/glay.jpg") no-repeat'
         swColorBackground ()
     }
 
     if(el == 's') {
-        womenImg.style.background = 'url("/resources/images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/sky.jpg") no-repeat'
+        womenImg.style.background = 'url("../../images/woman_wrap_img/woman_wrap/view/view-pd/view_sweater_color/sky.jpg") no-repeat'
         swColorBackground ()
     }
 }
